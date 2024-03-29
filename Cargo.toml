@@ -1,0 +1,11 @@
+[package]
+name = "ui-floem-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# floem = {version = "0.1.1"}
+floem = { git = "https://github.com/lapce/floem", rev = "f0e12db2ddd86d58cce408411c4a7960e423ba7f" }
+strum = { version = "0.25.0", features = ["derive"] }
